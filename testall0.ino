@@ -1,14 +1,14 @@
-#define relayPin1 13  // Pin connected to the relay 1 
-#define relayPin2 12  // Pin connected to the relay 2
-#define relayPin3 11  // Pin connected to the relay 3
-#define relayPin4 10  // Pin connected to the relay 4
-#define relayPin5 9  // Pin connected to the relay  5
+#define relayPin1 13  
+#define relayPin2 12  
+#define relayPin3 11  
+#define relayPin4 10  
+#define relayPin5 9  
 void setup() {
-  pinMode(relayPin1, OUTPUT);   // Set relay pin as output
-  pinMode(relayPin2, OUTPUT);   // Set relay pin as output
-  pinMode(relayPin3, OUTPUT);   // Set relay pin as output
-  pinMode(relayPin4, OUTPUT);   // Set relay pin as output
-  pinMode(relayPin5, OUTPUT);   // Set relay pin as output
+  pinMode(relayPin1, OUTPUT);   
+  pinMode(relayPin2, OUTPUT);   
+  pinMode(relayPin3, OUTPUT);   
+  pinMode(relayPin4, OUTPUT);   
+  pinMode(relayPin5, OUTPUT);   
       
   Serial.begin(9600);          // Initialize serial communication for debugging
   Serial.begin(9600);         // Initialize hardware serial communication with HC-05 (bluetooth)
